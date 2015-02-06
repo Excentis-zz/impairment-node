@@ -1,0 +1,15 @@
+Rigorously testing a network device or distributed service requires complex,
+realistic network test environments. Linux Traffic Control (tc) with Network
+Emulation (netem) provides the building blocks to create an impairment node that
+simulates such networks.
+
+This products was our quick-and-dirty implementation of a layer 2 impairment
+node with Linux Traffic Control. We've been using it since to test our traffic
+generator/analyzer 'ByteBlower' in impaired circumstances and to demonstrate
+to our customers how it operates within non-ideal network conditions.
+
+January 2015
+
+Tim De Backer
+Excentis nv
+http://www.excentis.com
